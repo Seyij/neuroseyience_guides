@@ -20,7 +20,7 @@ For more help with environmet management with conda, I find this [conda cheat sh
 Open Anaconda prompt and type in the following on a single line. The "dlc_gpu" can be changed to whatever you want the environment to be named.
 
 ```dos
-conda create -n dlc_gpu python=3.6 cudnn=7.1.4=cuda9.0_0 cuda=9.0 tensorflow-gpu=1.12.0
+conda create -n dlc_gpu python=3.6 cudnn=7.1.4=cuda9.0_0 tensorflow-gpu=1.12.0
 ```
 
 Tensorflow-gpu has very strict dependencies on what package versions it needs to work. The above is a combination that I have found to work.
