@@ -35,7 +35,7 @@ Activating the environment allows us to install more packages.
 This specific version of wxPython is to avoid errors in the labelling stage (see thread [here](https://github.com/DeepLabCut/DeepLabCut/issues/682)).
 Fffmpeg is for some video functions of deeplabcut.
 
-And there, that's it installed! Feel free to start using deeplabcut. If you want to test whether your GPU has been recognised, first open a python window by typing python within your environment. Then do the following:
+And there, that's it installed! Feel free to start using deeplabcut. If you want to test whether your GPU has been recognised, first start running python by typing ipython within your environment. Then do the following:
 
 ```python
 import tensorflow as tf
