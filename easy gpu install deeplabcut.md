@@ -65,7 +65,7 @@ Anyway here is the code!
 
 ```dos
 conda create -n dlc_directml python=3.6
-conda activaate dlc_directml
+conda activate dlc_directml
 
 pip install tensorflow-directml
 pip install deeplabcut
